@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header section style */
+.main-header{
+    background-image: url(../images/banner/banner2.png);
+    width: 1534px;
+    height:703px;  
+}
+.title-section{
+    text-align: right; 
+}
+.hero-title{
+    font-size: 45px;
+    padding: 175px 230px 24px 845px;
+    color: #151414;  
+}
+.tag-line{
+    padding: 0px 230px 10px 876px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.action-btn{
+    padding: 10px 4px;
+    margin: 10px 230px 167px 1210px;
+    width: 100px;
+    height: 45px;
+    background: #F15B22;
+    border-radius: 5px
+}
+/* failures of previous year */
+
+.failure-summary{
+    display: flex;
+    gap: 87px;
+    margin-bottom: 100px;
+}
+.person{
+    margin-top: 120px;
+    margin-left:206px;
+    
+}
+.failer-topic{
+    margin-top: 370px;
+    margin-right: 330px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failer-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.failer-point{
+    list-style: none;
+    padding-left: 4px;
+    color: #444343;
+}
+
+    ul li:before
+{
+    content: '\2713';
+    display: inline-block;
+    color:green;
+    padding: 0 6px 0 0;
+    
+}
+/* bonus section */
+.bonus{
+    margin-top: 15px;
+    margin-bottom: 160px;
+}
+.exp-h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+    
+
+.exp-main-container{
+    display: flex;
+    gap: 40px;
+    margin: 20px 100px 50px 100px;
+}
+.experience-box-container-1{
+    border: solid ;
+    padding: 20px 100px 20px 100px;
+    border-radius: 100px;
+    background-color: beige;
+    text-align: center;
+}
+.experience-title{
+    font-size: 25px;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 10px;
+    color:black;
+}
+.experience-describ{
+    font-size: 15px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+.exp-btn{
+    background-color: #F15B22;
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 18px;
+
+}
+/* my plan section style */
+.plan{
+    margin:10px  265px ;
+    text-align: center;
+}
+.plan-container{
+display: flex;
+gap: 126px;
+}
+.my-plan{
+margin-bottom: 30px;
+font-weight: 700;
+font-size: 40px;
+color: #151414;
+}
+
+   
+.what-i-do{
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+}
+.sort-descrption{
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+.logo{
+    height: 92px;
+    width: 93px;
+}
+/* positive mindset style */
+
+.mindset{
+    width: 1000px;
+    height: 225px;
+
+    margin-top: 125px;
+    margin-left: 250px;
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),
+                 url("../images/watch.png");
+}
+.mindset-title{
+    padding: 55px 617px 145px 65px;
+}
+.call-btn{
+    margin-top: 30px;
+    padding: 10px 25px;
+    color: #005FAC;
+}
+/* footer section style */
+.last-condainer{
+    display: flex;
+    gap: 330px;
+    background-color:black;
+    margin-top: 150px;
+    
+  }
+.sub-last-container{
+    margin:130px 230px 100px 130px ;
+}
+.future{
+    font-size: 45px;
+    color: #F8F8F8;
+    
+}
+.last-title-discription{
+    font-size: 16px;
+    color: #FFFFFF; 
+    margin-bottom: 20px;
+}
+.email-info{
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.phn-info{
+    margin-bottom: 20px;
+    color:#FFFFFF ;
+}
+.icon{
+    display: flex;
+    gap: 5px;
+   height: 35px;
+   width: 35px;
+}
+.subs-info{
+    margin: 144px 100px 243px 10px;
+}
+.subs-title{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 25px;
+    
+}
+input{
+    height:45px ;
+    width: 275px;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 50px;
+   
+}
+.last-btn{
+    padding: 12px 25px;
+    background: #005FAC;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
